@@ -56,16 +56,30 @@ public class LevelGenerator : MonoBehaviour
     }
 
     //instantiate a tile based on the levelMap array
-    private void makeTile(int ID, int x, int y)
+    private void makeTile(int ID, int x1, int y2)
     {
-        
-        int a1 = x;
-        int a2 = -y;
+        float x = (float)x1;
+        float y = (float)y2;
+
+        float a1 = x - 13.5f;
+        float a2 = -y + 14.5f;
+
+        float b1 = -(x - 13.5f);
+        float b2 = (-y + 14.5f);
+
+        float c1 = (x - 13.5f);
+        float c2 = -(-y + 14.5f);
+
+        float d1 = -(x - 13.5f);
+        float d2 = -(-y + 14.5f);
         
         makeDecider(ID, a1,a2);
+        makeDecider(ID, b1,b2);
+        makeDecider(ID, c1,c2);
+        makeDecider(ID, d1,d2);
     }
 
-    private void makeDecider(int ID, int x, int y)
+    private void makeDecider(int ID, float x, float y)
     {
         if(ID == 1)
             make1(x,y);
@@ -90,44 +104,43 @@ public class LevelGenerator : MonoBehaviour
     }
 
     //make an Outside Corner
-    private void make1(int x, int y)
+    private void make1(float x, float y)
     {
-        Debug.Log("make1 called for " + x + ", " + y);
         Instantiate(TestTile, new Vector3(x,y,0), Quaternion.identity);
     }
     //make an Outside Wall
-    private void make2(int x, int y)
+    private void make2(float x, float y)
     {
-        //Instantiate(TestTile, new Vector3(x,y,0), Quaternion.identity);
+        Instantiate(TestTile, new Vector3(x,y,0), Quaternion.identity);
     }
 
     //make an Inside Corner
-    private void make3(int x, int y)
+    private void make3(float x, float y)
     {
         Instantiate(TestCube, new Vector3(x,y,0), Quaternion.identity);
     }
 
     //make an Inside Wall
-    private void make4(int x, int y)
+    private void make4(float x, float y)
     {
         Instantiate(TestCube, new Vector3(x,y,0), Quaternion.identity);
     }
 
     //make a Standard Pellet
-    private void make5(int x, int y)
+    private void make5(float x, float y)
     {
         //Instantiate(TestCube, new Vector3(x,y,0), Quaternion.identity);
     }
 
     //make a Power Pellet
-    private void make6(int x, int y)
+    private void make6(float x, float y)
     {
         //Instantiate(TestTile, new Vector3(x,y,0), Quaternion.identity);
     }
 
     //make a T-junction
-    private void make7(int x, int y)
+    private void make7(float x, float y)
     {
-        //Instantiate(TestTile, new Vector3(x,y,0), Quaternion.identity);
+        Instantiate(TestTile, new Vector3(x,y,0), Quaternion.identity);
     }
 }
