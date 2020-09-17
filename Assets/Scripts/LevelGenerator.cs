@@ -25,6 +25,12 @@ public class LevelGenerator : MonoBehaviour
         {0,0,0,0,0,0,5,0,0,0,4,0,0,0},
     }; 
 
+    
+    public GameObject OutCorner;
+    public GameObject OutWall;
+    public GameObject InCorner;
+    public GameObject InWall;
+    public GameObject TJunc;
     public GameObject TestTile;
     public GameObject TestCube;
 
@@ -106,41 +112,41 @@ public class LevelGenerator : MonoBehaviour
     //make an Outside Corner
     private void make1(float x, float y)
     {
-        Instantiate(TestTile, new Vector3(x,y,0), Quaternion.identity);
+        Instantiate(OutCorner, new Vector3(x,y,0), Quaternion.identity);
     }
     //make an Outside Wall
     private void make2(float x, float y)
     {
-        Instantiate(TestTile, new Vector3(x,y,0), Quaternion.identity);
+        Instantiate(OutWall, new Vector3(x,y,0), Quaternion.identity);
     }
 
     //make an Inside Corner
     private void make3(float x, float y)
     {
-        Instantiate(TestCube, new Vector3(x,y,0), Quaternion.identity);
+        Instantiate(InCorner, new Vector3(x,y,0), Quaternion.identity);
     }
 
     //make an Inside Wall
     private void make4(float x, float y)
     {
-        Instantiate(TestCube, new Vector3(x,y,0), Quaternion.identity);
+        Instantiate(InWall, new Vector3(x,y,0), Quaternion.identity);
     }
 
     //make a Standard Pellet
     private void make5(float x, float y)
     {
-        //Instantiate(TestCube, new Vector3(x,y,0), Quaternion.identity);
+        Instantiate(TestTile, new Vector3(x,y,0), Quaternion.identity);
     }
 
     //make a Power Pellet
     private void make6(float x, float y)
     {
-        //Instantiate(TestTile, new Vector3(x,y,0), Quaternion.identity);
+        Instantiate(TestCube, new Vector3(x,y,0), Quaternion.identity);
     }
 
     //make a T-junction
     private void make7(float x, float y)
     {
-        Instantiate(TestTile, new Vector3(x,y,0), Quaternion.identity);
+        Instantiate(TJunc, new Vector3(x,y,0), Quaternion.identity);
     }
 }

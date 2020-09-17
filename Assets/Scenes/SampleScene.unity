@@ -150,6 +150,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c691540587ef2ab459928e57215a319f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OutCorner: {fileID: 5039677490987544079, guid: 88c72b7d5c1aec6429e26b6585dd9917,
+    type: 3}
+  OutWall: {fileID: 6093125957089254538, guid: 3575ecabdf9df1a42b8b3b8b543b71b1, type: 3}
+  InCorner: {fileID: 5833537268265549561, guid: 0e4ba8db25cc9a540b8b057c4c1130d8,
+    type: 3}
+  InWall: {fileID: 94864857327253910, guid: db056d454db11794c879ae56bdbe3f4e, type: 3}
+  TJunc: {fileID: 4731875388871682284, guid: e9bd34f061d33194e9153d1cf5b63429, type: 3}
   TestTile: {fileID: 1813088625966412867, guid: ad5d36a41f95b2d46a1c46675e44e9ff,
     type: 3}
   TestCube: {fileID: 10116074409382452, guid: ce7fe749c012805449d9d8058e990193, type: 3}
