@@ -157,7 +157,7 @@ MonoBehaviour:
     type: 3}
   InWall: {fileID: 94864857327253910, guid: db056d454db11794c879ae56bdbe3f4e, type: 3}
   TJunc: {fileID: 4731875388871682284, guid: e9bd34f061d33194e9153d1cf5b63429, type: 3}
-  TestTile: {fileID: 1813088625966412867, guid: ad5d36a41f95b2d46a1c46675e44e9ff,
+  TestTile: {fileID: 7087529760709695598, guid: 29d5428ec3107e741ab1d09b8de6dafd,
     type: 3}
   TestCube: {fileID: 10116074409382452, guid: ce7fe749c012805449d9d8058e990193, type: 3}
   RInCorner: {fileID: 2177160775308119062, guid: c996b93022f5d1945a689b3ea27ba934,
