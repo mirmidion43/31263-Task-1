@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: 758ff614301067743acedcac8b4ebb02
+guid: 4f60e4bef9d582b4bb27f8534994f6b6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7801198387864685742
-    second: Bluey_0
+      213: 115541623643514296
+    second: Scared (2)_0
   - first:
-      213: -849938694766453538
-    second: Bluey_1
+      213: 8363100751799929837
+    second: Scared (2)_1
+  - first:
+      213: 6260418842131152601
+    second: Scared (2)_2
+  - first:
+      213: -1369748790490762949
+    second: Scared (2)_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -92,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bluey_0
+      name: Scared (2)_0
       rect:
         serializedVersion: 2
         x: 3
@@ -106,17 +112,59 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 253b9f416639cb390800000000000000
-      internalID: -7801198387864685742
+      spriteID: 8b52b0a9e7c7a9100800000000000000
+      internalID: 115541623643514296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bluey_1
+      name: Scared (2)_1
       rect:
         serializedVersion: 2
-        x: 6
+        x: 106
+        y: 107
+        width: 90
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb46dbf2d3bf0470800000000000000
+      internalID: 8363100751799929837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scared (2)_2
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 4
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9deb36e84c971e650800000000000000
+      internalID: 6260418842131152601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scared (2)_3
+      rect:
+        serializedVersion: 2
+        x: 106
         y: 7
         width: 90
         height: 86
@@ -127,8 +175,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edc1691a2496434f0800000000000000
-      internalID: -849938694766453538
+      spriteID: b31f6477bbcadfce0800000000000000
+      internalID: -1369748790490762949
       vertices: []
       indices: 
       edges: []
@@ -136,7 +184,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 131e47e10bca42141b7c9160a5e9cb12
     internalID: 0
     vertices: []
     indices: 

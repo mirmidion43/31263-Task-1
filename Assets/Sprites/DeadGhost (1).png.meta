@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: 758ff614301067743acedcac8b4ebb02
+guid: 8e2da5e07fdb1a44a9ac38686b2379e6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7801198387864685742
-    second: Bluey_0
+      213: -8495470647039015670
+    second: DeadGhost (1)_0
   - first:
-      213: -849938694766453538
-    second: Bluey_1
+      213: -1234929188261710310
+    second: DeadGhost (1)_1
+  - first:
+      213: 7167512320989302830
+    second: DeadGhost (1)_2
+  - first:
+      213: -510649856195074938
+    second: DeadGhost (1)_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -92,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bluey_0
+      name: DeadGhost (1)_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 104
-        width: 96
-        height: 93
+        x: 18
+        y: 119
+        width: 65
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -106,20 +112,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 253b9f416639cb390800000000000000
-      internalID: -7801198387864685742
+      spriteID: a054b7b15760a1a80800000000000000
+      internalID: -8495470647039015670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bluey_1
+      name: DeadGhost (1)_1
       rect:
         serializedVersion: 2
-        x: 6
-        y: 7
-        width: 90
-        height: 86
+        x: 118
+        y: 119
+        width: 65
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,8 +133,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edc1691a2496434f0800000000000000
-      internalID: -849938694766453538
+      spriteID: a1636ea3276acdee0800000000000000
+      internalID: -1234929188261710310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGhost (1)_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 19
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e209dc71b7e187360800000000000000
+      internalID: 7167512320989302830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGhost (1)_3
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 19
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68463ec49aec9e8f0800000000000000
+      internalID: -510649856195074938
       vertices: []
       indices: 
       edges: []
@@ -136,7 +184,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 8340b41d74471be438c31bcf68df1bd2
     internalID: 0
     vertices: []
     indices: 
