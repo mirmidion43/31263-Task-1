@@ -31,8 +31,8 @@ public class LevelGenerator : MonoBehaviour
     public GameObject InCorner;
     public GameObject InWall;
     public GameObject TJunc;
-    public GameObject TestTile;
-    public GameObject TestCube;
+    public GameObject normPellet;
+    public GameObject powPellet;
     public GameObject RInCorner;
     public GameObject Parent1;
     public GameObject Parent2;
@@ -49,6 +49,18 @@ public class LevelGenerator : MonoBehaviour
     // Called before Start
     private void Awake() 
     {
+        GameObject[] remove = GameObject.FindGameObjectsWithTag("1");
+        for(int i = 0; i < remove.Length; i++)
+        Destroy(remove[i]);
+
+        Parent1 = new GameObject();
+        Parent2 = new GameObject();
+        Parent3 = new GameObject();
+        Parent4 = new GameObject();
+        Instantiate(Parent1, new Vector3(-13.5f,14.5f,0.0f), Quaternion.identity);
+        Instantiate(Parent2, new Vector3(-13.5f,14.5f,0.0f), Quaternion.identity);
+        Instantiate(Parent3, new Vector3(-13.5f,14.5f,0.0f), Quaternion.identity);
+        Instantiate(Parent4, new Vector3(-13.5f,14.5f,0.0f), Quaternion.identity);
 
         for (int i = 0; i < 14; i++)
         {
@@ -63,11 +75,11 @@ public class LevelGenerator : MonoBehaviour
                 makeTile(levelMap[j,i], i, j, Parent4); 
             }
         }
-        Parent2.transform.Translate(27.0f,0.0f,0.0f);
+        //Parent2.transform.Translate(13.5f,0.0f,0.0f);
         Parent2.transform.Rotate(new Vector3(0f,180f,0f));
-        Parent3.transform.Translate(0.0f,-28.0f,0.0f);
+        Parent3.transform.Translate(0.0f,1.0f,0.0f);
         Parent3.transform.Rotate(new Vector3(180f,0f,0f));
-        Parent4.transform.Translate(27.0f, -28.0f,0.0f);
+        Parent4.transform.Translate(0.0f, 1.0f,0.0f);
         Parent4.transform.Rotate(new Vector3(180f,180f,0f));
     }
 
@@ -205,13 +217,13 @@ public class LevelGenerator : MonoBehaviour
     //make a Standard Pellet
     private void make5(float x, float y, GameObject parent)
     {
-        Instantiate(TestTile, new Vector3(x,y,0), Quaternion.Euler(rotation1), parent.transform);      
+        Instantiate(normPellet, new Vector3(x,y,0), Quaternion.Euler(rotation1), parent.transform);      
     }
 
     //make a Power Pellet
     private void make6(float x, float y, GameObject parent)
     {
-        Instantiate(TestCube, new Vector3(x,y,0), Quaternion.Euler(rotation1), parent.transform);
+        Instantiate(powPellet, new Vector3(x,y,0), Quaternion.Euler(rotation1), parent.transform);
          
     }
 

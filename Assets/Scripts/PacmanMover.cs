@@ -12,7 +12,7 @@ public class PacmanMover : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        addTween(Pacman.transform.position,new Vector3(3.0f,2.0f,0.0f), 1.0f);
+        addTween(Pacman.transform.position,new Vector3(-7.5f,13.5f,0.0f), 1.0f);
     }
     public void addTween(Vector3 startPos, Vector3 endPos, float duration)
     {
@@ -43,25 +43,25 @@ public class PacmanMover : MonoBehaviour
         }
         else 
         {
-            if(Pacman.transform.position== new Vector3(-3.0f,2.0f,0.0f))
+            if(Pacman.transform.position== new Vector3(-12.5f,13.5f,0.0f))
             {
                 Pacman.transform.Rotate(new Vector3(0.0f,180.0f,270.0f));
-                addTween(Pacman.transform.position,new Vector3(3.0f,2.0f,0.0f), 1.0f);
+                addTween(Pacman.transform.position,new Vector3(-7.5f,13.5f,0.0f), 1.0f);
             }
-            if(Pacman.transform.position== new Vector3(3.0f,2.0f,0.0f))
+            if(Pacman.transform.position== new Vector3(-7.5f,13.5f,0.0f))
             {
                 Pacman.transform.Rotate(new Vector3(0.0f,0.0f,90.0f));
-                addTween(Pacman.transform.position, new Vector3(3.0f,-2.0f,0.0f), (4.0f/6.0f));
+                addTween(Pacman.transform.position, new Vector3(-7.5f,9.5f,0.0f), (4.0f/6.0f));
             }
-            if(Pacman.transform.position==new Vector3(3.0f,-2.0f,0.0f))
+            if(Pacman.transform.position==new Vector3(-7.5f,9.5f,0.0f))
             {
                 Pacman.transform.Rotate(new Vector3(0.0f,180.0f,90.0f));
-                addTween(Pacman.transform.position, new Vector3(-3.0f,-2.0f,0.0f), 1.0f);
+                addTween(Pacman.transform.position, new Vector3(-12.5f,9.5f,0.0f), 1.0f);
             }
-            if(Pacman.transform.position==new Vector3(-3.0f,-2.0f,0.0f))
+            if(Pacman.transform.position==new Vector3(-12.5f,9.5f,0.0f))
             {
                 Pacman.transform.Rotate(new Vector3(0.0f,0.0f,270.0f));
-                addTween(Pacman.transform.position, new Vector3(-3.0f,2.0f,0.0f), (4.0f/6.0f));
+                addTween(Pacman.transform.position, new Vector3(-12.5f,13.5f,0.0f), (4.0f/6.0f));
             }
         }
 
