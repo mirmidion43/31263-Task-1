@@ -1,11 +1,13 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 375898017a2797f46af7e9eeafd14619
-=======
-guid: 9ab280291d5325a4fb439ff3b6ce714a
->>>>>>> Feature-LevelGenerator
+guid: 758ff614301067743acedcac8b4ebb02
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -7801198387864685742
+    second: Bluey_0
+  - first:
+      213: -849938694766453538
+    second: Bluey_1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -44,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -88,7 +90,49 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Bluey_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 104
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253b9f416639cb390800000000000000
+      internalID: -7801198387864685742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bluey_1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 7
+        width: 90
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc1691a2496434f0800000000000000
+      internalID: -849938694766453538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

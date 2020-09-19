@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: db056d454db11794c879ae56bdbe3f4e
+=======
+guid: 5d5ed9ca3dfbe4b4cbcd87ac3c0f620d
+>>>>>>> Feature-Visual
 PrefabImporter:
   externalObjects: {}
   userData: 
